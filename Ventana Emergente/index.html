@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Referencio tanto la hoja de estilos, como el documento que contiene mis funciones -->
+
+<script src="funciones.js" type="text/javascript"></script>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <title>DWEC TAREA 3</title>
+</head>
+<body>
+
+<!-- Creo una clase ventana en lugar de un id ya que voy a reutilizarla en otro HTML
+ Ventana engloba todos mis div's -->
+
+<div class="ventana">
+
+    <!-- Un div con una características peculiares -->
+
+    <div id="arriba">
+        <h2 id="titulo">Tarea 3</h2>
+    </div>
+
+    <!-- Al igual que el anterior, tendrá unas características diferentes  -->
+
+    <div id="abajo">
+
+        <p>Características del Navegador</p>
+
+        <!-- Botones para llamar a mis funciones -->
+
+        <button class="boton" onclick="ventana()">Abrir</button>
+        <button class="boton" onclick="cVentana()">Cerrar</button>
+
+    </div>
+</div>
+</body>
+</html>

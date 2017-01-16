@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Referenciamos nuestras liberias, tanto para el css, javascript , como para una libreria que necesitamos para un método de JAVA -->
+
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<script type='text/javascript' src='http://www.java.com/js/deployJava.js'></script>
+<script type="text/javascript" src="funciones.js" ></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Datos de tu Navegador</title>
+</head>
+
+<!-- Una vez que se haya cargado el body, llamaremos a nuestra función cargar, pasando como parámetros las id's de nuestros elementos con los que queremos interactuar -->
+
+<body onload="cargar('Url','Prot','Nav','Java')">
+
+
+    <div class="ventana">
+
+        <h3>Ejemplo de Ventana de Nueva</h3>
+
+           <table>
+                <tr>
+                    <td>Url Completa</td>
+                    <td id="Url"></td>
+
+                </tr>
+
+                <tr>
+                    <td>Protocolo Utilizado</td>
+                    <td id="Prot"></td>
+                </tr>
+                <tr>
+                    <td>Navegador</td>
+                    <td id="Nav"></td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td id="Java"></td>
+                </tr>
+
+            </table>
+
+    </div>
+
+
+
+</body>
+</html>
