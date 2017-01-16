@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<script src="Bucles.js" type="text/javascript"></script>
+<head>
+    <meta charset="UTF-8">
+    <title> Tarea 2 - Bucles</title>
+</head>
+<body>
+    <!-- Div que contiene un título -->
+    <div id="titulo">Desarrollo Web Entorno Cliente - Tarea 2</div>
+
+    <!-- Div que contiene la etiqueta  donde se mostrarán las operaciones con los Bucles -->
+    <div id="operaciones">
+         <label id="labelOp">Situa el ratón sobre el Botón de Bucle para obtener información</label>
+    </div>
+    <!-- Div que contiene los botones para realizar las operaciones, cada Botón tiene sus eventos definidos -->
+    <div>
+       <button onclick="bucledo('labelOp')" onmouseover="infoDo(this)" onmouseout="infoDoDef(this)">Bucle Do</button>
+       <button onclick="buclefor('labelOp')" onmouseover="infoFor(this)" onmouseout="infoForDef(this)">Bucle For</button>
+       <button onclick="buclewhile('labelOp')" onmouseover="infoWhile(this)" onmouseout="infoWhiledef(this)">Bucle While</button>
+    </div>
+</body>
+</html>
